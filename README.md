@@ -7,14 +7,16 @@
 2. Primary key for each individual table:
 
     Account -> AccountId
+   
     Policy -> HAN
+   
     Claim -> Id
   
-3. Created the mapping of accounts to policies, and polices to claims
+4. Created the mapping of accounts to policies, and polices to claims
    i. For accounts to policy: One account can have more than one policy, two accounts can not have one policy
    ii. For policy to claims: One policy can have multiple claims
 
-4. Extra columns created: PolicyHAN in Accounts, AccountId in Polices
+5. Extra columns created: PolicyHAN in Accounts, AccountId in Polices
 
 
 ## FastAPI
